@@ -10,8 +10,12 @@ venv/
 submission/
 _report_build/
 ID_*.zip
+*.zip
 demo_human.mp4
 demo_agent.mp4
+Assignment.pdf
+assignment.txt
+DEMO_SCRIPT.md
 
 # Helper scripts (video/gif recording, evaluation)
 record_demo.py
