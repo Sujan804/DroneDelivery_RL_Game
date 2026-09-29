@@ -13,6 +13,10 @@ ID_*.zip
 demo_human.mp4
 demo_agent.mp4
 
+# Helper scripts (video/gif recording, evaluation)
+record_demo.py
+make_demo_gif.py
+
 # OS / editor
 .DS_Store
 Thumbs.db
