@@ -1,0 +1,6 @@
+agent,avg_reward,deliveries_out_of_10,crashes_out_of_10,avg_steps
+Trained DQN agent,148.07,10,0,183.0
+Random agent,-332.6,0,0,300.0
+
+per_episode_rewards_trained,148.07,148.07,148.07,148.07,148.07,148.07,148.07,148.07,148.07,148.07
+per_episode_rewards_random,-349.02,-326.55,-349.15,-342.04,-323.76,-298.23,-328.87,-332.43,-326.4,-349.58

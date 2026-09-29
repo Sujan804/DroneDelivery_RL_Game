@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Local artifacts (not part of the public repo)
+*.log
+submission/
+_report_build/
+ID_*.zip
+demo_human.mp4
+demo_agent.mp4
+
+# OS / editor
+.DS_Store
+Thumbs.db
