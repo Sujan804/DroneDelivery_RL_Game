@@ -5,6 +5,10 @@ Deep Q-Network (DQN) agent trained from scratch to fly around obstacles and
 deliver. Includes human play, a saved policy, training/evaluation scripts, and
 a recorded demonstration.
 
+![Drone delivery demo: the trained DQN agent detours around the obstacle and delivers](demo.gif)
+
+### Training curve
+
 ![Training reward](training_plot.png)
 
 ## The game
@@ -69,11 +73,13 @@ train.py                          Training script (saves policy, plot, log)
 evaluate.py                       Trained vs random evaluation, same seeds
 play.py                           Human play / trained-agent visual demo
 record_demo.py                    Records a demo MP4/GIF with captions
+make_demo_gif.py                  Builds demo.gif (README preview) from demo.mp4
 drone_delivery_assignment.ipynb   Notebook version of the full pipeline
 dqn_drone.pth                     Saved best policy
 training_plot.png                 Training reward curve
 training_log.csv                  Raw per-episode rewards
 evaluation_results.csv            10-episode comparison table
+demo.gif                          Preview clip for this README (from demo.mp4)
 demo.mp4                          Recorded human + agent demonstration
 ```
 
